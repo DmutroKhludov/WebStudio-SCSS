@@ -1,0 +1,83 @@
+.header__logo{
+    color: $logo-color ;
+    font-family: 'Raleway';
+    font-size: 26px;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.78px;
+    text-decoration: none;
+}
+.blue{
+    color: $background-button-color;
+}
+.header__list{
+    color: $title-text-color ;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.28px
+}
+.header__site-nav{
+    width: 281px;
+    margin-left: -150px;
+}
+.header__wraper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 15px;
+
+}
+.header__contacts-list{
+    padding-left: 344 px;
+    display: flex;
+}
+.header__list {
+    color: $title-text-color;
+    text-decoration: none;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.28px;
+    display: flex;
+    justify-content: space-between;
+    width: 281px;
+}
+.header{
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+.header__contacts-list .header__site-number:hover{
+    color: $background-button-color;
+}
+.header__site-number:hover .header__icon{
+    fill: $background-button-color;
+}
+.header__site-link{
+    position: relative;
+}
+.header__site-link.current::after{
+    content: " ";
+    display: block;
+    background-color: $background-button-color;
+    height: 4px;
+    width: 100%;
+    border-radius: 2px;
+    position: absolute;
+    left: 0;
+    bottom: -35px;
+  }
+  .header__site-link:not(:last-child){
+    text-decoration: none;
+    color: $title-text-color;
+    margin-right: 50px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.24px;
+   
+}
+
+.header__site-link:hover,
+.header__site-link:focus{
+    color: $background-button-color;
+}

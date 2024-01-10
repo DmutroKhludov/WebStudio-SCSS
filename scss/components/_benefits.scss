@@ -1,0 +1,57 @@
+.benefits__name{
+    color: $title-text-color;
+    font-size: 14px;
+    margin-top: 70px;
+    align-items: flex-start;
+}
+.benefits__text{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.42px;
+}
+.benefits{
+    padding-top: 94px;
+    padding-bottom: 94px;
+    
+}
+.benefits__block{
+    width:270px;
+    position: relative;
+}
+.benefits__block:not(:last-child){
+    margin-right: 50px;
+}
+.benefits__list{
+    display: flex;
+    align-items: flex-start;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.benefits__list .banefits__block  {
+    background-color: $background-team-color; 
+    display: block;
+    margin: 0 auto;
+    width: 270px;
+    height: 120px;
+    top: 774px;
+    left: 215px;
+    border-radius: 4px;
+}
+.benefits__list .banefits__block {
+    text-align: center; 
+}
+
+.benefits__list .banefits__block img {
+    background-color: $background-team-color; 
+    display: inline-block; 
+    border-radius: 10px; 
+    padding: 20px; 
+}
+.benefits__name {
+    text-align: left;
+    margin-top: 27px; 
+}
+.benefits__text {
+    text-align: left;
+}

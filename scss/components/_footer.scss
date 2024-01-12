@@ -1,5 +1,5 @@
 .footer__email{
-    color: var(--primary-text-color);
+    color: $primary-text-color;
     font-weight: 400;
     line-height: 24px; 
     letter-spacing: 0.42px;
@@ -20,7 +20,7 @@
     margin-bottom: 20px;
 }
 .page__footer{
-    background: var(--secondary-background-color);
+    background-color: $secondary-background-color;
     padding-top: 60px;
     padding-bottom:60px ;
 }
@@ -30,9 +30,24 @@
     margin-top: 20px;
 }
 .adress{
-    color: var(--second-text-color);
+    color: $second-text-color;
     font-weight: 400;
     line-height: 24px; 
     letter-spacing: 0.42px;
     cursor: pointer; 
+}
+.email,
+.tel{
+    color:rgba(255, 255, 255, 0.60) ;
+    font-weight: 400;
+    line-height: 24px; 
+    letter-spacing: 0.42px;
+    
+}
+.white{
+    color: var(--second-text-color);
+}
+.address-text{
+    color: var(--primary-background-color);
+   margin-bottom: 9px;
 }

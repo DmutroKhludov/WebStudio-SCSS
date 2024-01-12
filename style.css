@@ -59,56 +59,7 @@ body{
     text-align: center;
     margin-bottom: 50px;
 }
-
-.team-name{
-    color: var(--title-text-color);
-    font-size: 16px;
-    font-weight: 500;
-    letter-spacing: 0.48px;
-    text-align: center;
-    margin-top: 30px;
-    margin-bottom: 10px;
-}
-.team-position{
-    color: var(--primary-text-color);
-    font-size: 16px;
-    font-weight: 400;
-    letter-spacing: 0.48px;
-    text-align: center;
-    
-}
-.team-card{
-    width: 270px;
-    box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.20), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
-    border-radius: 0px 0px 4px 4px;
-    padding-bottom: 30px;
-}  
-.team-card{
-    margin-right: 30px;
-}
-.adress{
-    color: var(--second-text-color);
-    font-weight: 400;
-    line-height: 24px; 
-    letter-spacing: 0.42px;
-    cursor: pointer;
-    
-
-}
 .email,
-.footer-email{
-    color: var(--primary-text-color);
-    font-weight: 400;
-    line-height: 24px; 
-    letter-spacing: 0.42px;
-    cursor: pointer;
-   margin-right: 50px;
-   
-    
-}
-.footer-email{
-    margin-bottom: 9px;
-}
 .tel{
     color:rgba(255, 255, 255, 0.60) ;
     font-weight: 400;
@@ -116,25 +67,7 @@ body{
     letter-spacing: 0.42px;
     
 }
-.footer-logo{
-    font-family: Raleway;
-    font-size: 26px;
-    font-weight: 700;
-    letter-spacing: 0.78px;
-    text-decoration: none;
-    margin-bottom: 20px;
-}
 
-.team{
-    background-color: var(--background-team-color);
-    padding-top: 94px ;
-    padding-bottom: 94px ;
-}
-.page-footer{
-    background: var(--secondary-background-color);
-    padding-top: 60px;
-    padding-bottom:60px ;
-}
 .white{
     color: var(--second-text-color);
 }
@@ -161,20 +94,6 @@ body{
     border: none;
     padding: 6px 25px;
     }
-   
-    
-    
-    
-    .team-list{
-        display: flex;
-        margin-right: 30px;
-        
-    }
-   .footer-contact{
-    display: flex;
-    flex-direction: column;
-    margin-top: 20px;
-   }
    .portfolio-flex {
     display: flex;
     flex-wrap: wrap; 
@@ -253,58 +172,6 @@ body{
     position: relative;
     border-radius: 4px;
 }
-
-
-
-
-.social-list-link:focus,
-.social-list-link:hover{
-    background-color: var(--background-button-color);
-}
-.social-net-list{
-    display: flex
-}
-.social-net-item{
-    margin-left: 17px;
-}
-.social-list-link{
-    width: 44px;
-    height: 44px;
-    border-radius: 50%;
-    fill: var(--svg-color);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.clients-list{
-    display: flex;
-    margin-left: -30px;
-}
-.clients-item{
-    margin-left: 30px;
-}
-.clients-link{
-    width: 170px;
-    height: 92px;
-    border: 1px solid var(--svg-color);
-    border-radius: 4px;
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    fill: var(--svg-color);
-}
-.clients-icon{
-    width: 106px;
-    height: 60px;
-
-}
-.clients-link:hover,
-.clients-link:focus{
-    fill: var(--background-button-color);
-    border-color: var(--background-button-color);
-}
-
-
   .agree-btn {
     padding: 10px 30px;
     min-width: 200px;

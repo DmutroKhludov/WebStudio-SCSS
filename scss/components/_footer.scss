@@ -29,14 +29,18 @@
     flex-direction: column;
     margin-top: 20px;
 }
-.adress{
+.address{
     color: $second-text-color;
     font-weight: 400;
     line-height: 24px; 
     letter-spacing: 0.42px;
     cursor: pointer; 
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    
 }
-.email,
+.footer__email,
 .tel{
     color:rgba(255, 255, 255, 0.60) ;
     font-weight: 400;
@@ -45,9 +49,39 @@
     
 }
 .white{
-    color: var(--second-text-color);
+    color: $second-text-color;
 }
-.address-text{
-    color: var(--primary-background-color);
+.address__text{
+    color: $primary-background-color;
    margin-bottom: 9px;
+   cursor: pointer;
+   letter-spacing: 1.08px;
+   font-style: normal;
+   margin-top: 20px;
+}
+.footer__wrap{
+    display: flex;
+    justify-content: space-between;
+}
+.footer__title{
+    color: $primary-background-color;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    letter-spacing: 1.08px;
+}
+.social__net-footer-list{
+    display: flex;
+
+}
+.sn__border-footer{
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color: rgba(255,255,255,0.1);
+    fill: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+
 }

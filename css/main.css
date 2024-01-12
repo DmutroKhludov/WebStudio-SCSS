@@ -357,10 +357,8 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-}
-
-.social__net-item {
-  margin-left: 17px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .social__list-link {

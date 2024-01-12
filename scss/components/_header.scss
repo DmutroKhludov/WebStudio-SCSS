@@ -51,6 +51,9 @@
 .header__site-number:hover .header__icon{
     fill: $background-button-color;
 }
+.header__icon{
+    margin-right: 10px;
+}
 .header__site-link{
     position: relative;
 }
@@ -80,4 +83,7 @@
 .header__site-link:hover,
 .header__site-link:focus{
     color: $background-button-color;
+}
+.header__site-number{
+    margin-left: 50px;
 }

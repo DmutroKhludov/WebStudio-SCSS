@@ -10,30 +10,41 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link rel="stylesheet" href="./css/main.min.css">
 <body>
-    <header class="header container">
-        <div class="header-wraper">
-            <a class="logo" href="./index.html">
+    <header class="header">
+        <div class="header__wraper container">
+            <a class="header__logo" href="./index.html">
                 <span class="blue">Web</span>Studio</a>
-                <nav class="site-nav">
-                    <ul class="header-list">
-                        <li>
-                            <a class="site-link" href="./index.html">Студія</a>
+                <nav class="header__site-nav">
+                    <ul class="header__list">
+                        <li class="header__item">
+                            <a class="header__site-link current" href="./index.html">Студія</a> 
                         </li>
-                        <li>
-                            <a class="site-link current" href="./portfolio.html">Портфоліо</a>
+                        <li class="header__item">
+                            <a class="header__site-link" href="./portfolio.html">Портфоліо</a>
                         </li>
-                        <li>
-                            <a class="site-link" href="#">Контакти</a>
+                        <li class="header__item">
+                            <a class="header__site-link" href="#">Контакти</a>
+                        </a>
                         </li>
                     </ul>
                 </nav>
       
-        <ul class="contacts-list">
-            <li>
-                <a class="site-link email" href="info@devstudio.com">info@devstudio.com</a>
+        <ul class="header__contacts-list">
+            <li class="header__contacts-item">
+                <a href="" class="header__site-number">
+                <svg width="16" height="12" class="header__icon">
+                    <use href="images/symbol-defs.svg#icon-email"></use>
+                </svg>
+                info@devstudio.com
+            </a>
             </li>
-            <li>
-                <a class="site-link" href="+38 096 111 11 11">+38 096 111 11 11</a>
+            <li class="header__contacts-item">
+                <a href="" class="header__site-number">
+                <svg width="10" height="16" class="header__icon">
+                    <use href="images/symbol-defs.svg#icon-phone"></use>
+                </svg>
+                +38 096 111 11 11
+                </a>
             </li>
         </ul>
       </div>
@@ -108,15 +119,63 @@
             </ul>
         </section>
     </main> 
-    <footer class="page-footer container">
-        <a class="footer-logo" href="#"><span class="blue">Web</span><span class="white">Studio</span></a>
-        <address class="address">
-            <div class="footer-contact">
-            <a href="#" class="address-text">м. Київ, пр-т Лесі Українки, 26</a>
-            <a href="mailto:info@devstudio.com" class="footer-email">info@devstudio.com</a>
-            <a href="tel:+38 096 111 11 11" class="tel">+38 096 111 11 11</a>
+    <footer class="page__footer">
+        <div class="footer__wrap container">
+            <div>
+                <a class="footer__logo" href="#"><span class="blue">Web</span><span class="white">Studio</span></a>
+                <address class="address">
+                    <a href="#" class="address__text">м. Київ, пр-т Лесі Українки, 26</a>
+                    <a href="mailto:info@devstudio.com" class="footer__email">info@devstudio.com</a>
+                    <a href="tel:+38 096 111 11 11" class="tel">+38 096 111 11 11</a>
+                </address>
+            </div>
+        <div class="social__net-part">
+            <h4 class="footer__title">Приєднуйтесь</h4>
+            <div>
+                <ul class="social__net-footer-list">
+                    <li class="social__net-footer-item">
+                        <a class="sn__border-footer">
+                            <svg class="social-net-icon-footer" width="20" height="20">
+                                <use href="images/symbol-defs.svg#icon-instagram"></use>
+                            </svg>  
+                        </a>
+                    </li>
+                    <li class="social-net__footer-item">
+                        <a class="sn__border-footer">
+                           <svg class="social__net-icon-footer" width="20" height="20">
+                            <use href="images/symbol-defs.svg#icon-twitter"></use>
+                            </svg> 
+                        </a>
+                    </li>
+                    <li class="social__net-footer-item">
+                        <a class="sn__border-footer">
+                            <svg class="social__net-icon-footer" width="20" height="20">
+                                <use href="images/symbol-defs.svg#icon-facebook"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="social__net-footer-item">
+                        <a class="sn__border-footer">
+                            <svg class="social__net-icon-footer" width="20" height="20">
+                                <use href="images/symbol-defs.svg#icon-linkedin"></use>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </div>
         </div>
-        </address>
+        <div class="footer__form-container"> 
+            <p class="footer__social-title">Підпишіться на розсилку</p> 
+            <form class="footer-form"> 
+                <input class="footer-form__input" type="email" name="email" placeholder="E-mail"> 
+                <button type="submit" class="footer-form__submit-btn">Підписатися 
+                    <svg class="footer-form__btn-icon" width="24" height="24"> 
+                        <use href="./images/icons.svg#icon-send"></use> 
+                    </svg> 
+                </button> 
+            </form> 
+        </div>
+    </div>
     </footer>
 </body>
 </html>

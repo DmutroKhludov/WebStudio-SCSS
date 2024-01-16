@@ -12,7 +12,14 @@ font-size: 16px;
 letter-spacing: 0.48px;
 margin-left: 8px;
 border: none;
-padding: 6px 25px;
+padding: 6px 22px;
+line-height: 26px;
+cursor: pointer;
+}
+.btn:hover,
+.btn:focus{
+    background-color: $background-button-color;
+    color: $primary-background-color
 }
 .portfolio__flex {
 display: flex;
@@ -49,7 +56,7 @@ justify-content: center;
 list-style: none;
 padding: 0;
 margin: 0;
-margin-bottom: 30px;
+margin-bottom: 50px;
 }
 
 .portfolio__navigation li {
@@ -73,4 +80,11 @@ margin: 0;
 }
 .list__title{
     color: $title-text-color;
+}
+.portfolio__section{
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+.portfolio__item{
+    
 }

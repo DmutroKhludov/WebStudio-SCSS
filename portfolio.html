@@ -17,10 +17,10 @@
                 <nav class="header__site-nav">
                     <ul class="header__list">
                         <li class="header__item">
-                            <a class="header__site-link current" href="./index.html">Студія</a> 
+                            <a class="header__site-link" href="./index.html">Студія</a> 
                         </li>
                         <li class="header__item">
-                            <a class="header__site-link" href="./portfolio.html">Портфоліо</a>
+                            <a class="header__site-link current" href="./portfolio.html">Портфоліо</a>
                         </li>
                         <li class="header__item">
                             <a class="header__site-link" href="#">Контакти</a>
@@ -51,8 +51,9 @@
     </header>
   
     <main>
-        <section class="container">
-            <h1 class="title__portfolio">portfolio</h1>
+        <section class="portfolio__section">
+            <div class="container">
+            <h1 class="title__portfolio" hidden>portfolio</h1>
             <ul class="portfolio__navigation">
                 <li>
                     <button type="button" class="btn">Усі</button>
@@ -71,52 +72,53 @@
                 </li>
             </ul>
             <ul class="portfolio__flex">
-                <li>
+                <li class="portfolio__item">
                     <img src="portfolio/img_1.png" alt="gog">
                     <h2 class="list__title">Технокряк</h2>
                     <p>Веб-сайт</p>
                 </li>
-                <li>
+                <li class="portfolio__item">
                     <img src="portfolio/img_2.png" alt="gog">
                     <h2 class="list__title">Постер New Orlean vs Golden Star</h2>
                     <p>Дизайн</p>
                 </li>
-                <li>
+                <li class="portfolio__item">
                     <img src="portfolio/img_3.png" alt="gog">
                     <h2 class="list__title">Ресторан Seafood</h2>
                     <p>Додаток</p>
                 </li>
-                <li>
+                <li class="portfolio__item">
                     <img src="portfolio/img_4.png" alt="gog">
                     <h2 class="list__title">Проєкт Prime</h2>
                     <p>Маркетинг</p>
                 </li>
-                <li>
+                <li class="portfolio__item">
                     <img src="portfolio/img_5.png" alt="gog">
                     <h2 class="list__title">Проєкт Boxes</h2>
                     <p>Додаток</p>
                 </li>
-                <li>
+                <li class="portfolio__item">
                     <img src="portfolio/img_6.png" alt="gog">
                     <h2 class="list__title">Inspiration has no Borders</h2>
                     <p>Веб-сайт</p>
                 </li>
-                <li>
+                <li class="portfolio__item">
                     <img src="portfolio/img_7.png" alt="gog">
                     <h2 class="list__title">Видання Limited Edition</h2>
                     <p>Дизайн</p>
                 </li>
-                <li>
+                <li class="portfolio-item">
                     <img src="portfolio/img_8.png" alt="gog">
                     <h2 class="list__title">Проєкт LAB</h2>
                     <p>Маркетинг</p>
                 </li>
-                <li>
+                <li class="portfolio-item">
                     <img src="portfolio/img_9.png" alt="gog">
                     <h2 class="list__title">Growing Business</h2>
                     <p>Додаток</p>
                 </li>
             </ul>
+        </div>
         </section>
     </main> 
     <footer class="page__footer">
@@ -169,9 +171,9 @@
             <form class="footer__form"> 
                 <input class="footer__form-input" type="email" name="email" placeholder="E-mail"> 
                 <button type="submit" class="footer-form__submit-btn">Підписатися 
-                    <svg class="footer__form-btn-icon" width="24" height="24"> 
-                        <use href="./images/icons.svg#icon-send"></use> 
-                    </svg> 
+                    <svg class="footer-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                        <path d="M24 0L0 13.5L7.66994 16.3407L19.5 5.25002L10.5017 17.3896L10.509 17.3923L10.5 17.3896V24.0001L14.8013 18.982L20.2501 21.0001L24 0Z" fill="white"/>
+                        </svg>
                 </button> 
             </form> 
         </div>

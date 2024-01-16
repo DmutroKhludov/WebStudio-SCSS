@@ -13,12 +13,12 @@
     align-items: center;
     justify-content: center;
     display: flex;
-    fill: var(--svg-color);
+    fill: $svg-color;
 }
 .clients__icon{
     width: 106px;
     height: 60px;
-
+   
 }
 .clients__link:hover,
 .clients__ink:focus{

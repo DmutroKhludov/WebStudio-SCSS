@@ -1,7 +1,4 @@
-.social__list-link:focus,
-.social__list-link:hover{
-    background-color: $background-button-color;
-}
+
 .social__net-list{
     display: flex;
     margin-top: 16px;
@@ -65,4 +62,9 @@
     letter-spacing: 1.08px;
     text-align: center;
     margin-bottom: 50px;
+}
+.social__list-link:focus,
+.social__list-link:hover{
+    background-color: $background-button-color;
+    fill: $primary-background-color;
 }

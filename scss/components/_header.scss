@@ -44,6 +44,7 @@
 .header{
     padding-top: 32px;
     padding-bottom: 32px;
+    border-bottom: 1px solid #ececec;
 }
 .header__contacts-list .header__site-number:hover{
     color: $background-button-color;
@@ -53,6 +54,7 @@
 }
 .header__icon{
     margin-right: 10px;
+    fill: $primary-text-color;
 }
 .header__site-link{
     position: relative;
@@ -66,7 +68,7 @@
     border-radius: 2px;
     position: absolute;
     left: 0;
-    bottom: -35px;
+    bottom: -37px;
   }
   .header__site-link:not(:last-child){
     text-decoration: none;
@@ -86,4 +88,6 @@
 }
 .header__site-number{
     margin-left: 50px;
+    font-weight: 500;
+    color: $primary-text-color;
 }

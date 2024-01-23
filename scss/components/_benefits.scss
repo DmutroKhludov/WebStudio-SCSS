@@ -4,7 +4,8 @@
 }
 .benefits__block{
         width: 480px;
-        position: relative;
+        margin-bottom: 30px;
+        // position: relative;
      }
       .banefits__block-wrap  {
              background-color: $background-team-color; 
@@ -47,6 +48,11 @@
                 }
                 .benefits__block-wrap{
                     width: 354px;
+                }
+            }
+            @media screen and (min-width: 1199px) {
+                .benefits__block{
+                    margin-bottom: 0;
                 }
             }
                 

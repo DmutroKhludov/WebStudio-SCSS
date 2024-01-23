@@ -23,6 +23,7 @@ a {
 
 img {
   display: block;
+  width: 100%;
 }
 
 .container {
@@ -425,7 +426,7 @@ textarea {
 
 .benefits__block {
   width: 480px;
-  position: relative;
+  margin-bottom: 30px;
 }
 
 .banefits__block-wrap {
@@ -489,6 +490,11 @@ textarea {
   }
   .benefits__block-wrap {
     width: 354px;
+  }
+}
+@media screen and (min-width: 1199px) {
+  .benefits__block {
+    margin-bottom: 0;
   }
 }
 .activity {
@@ -555,32 +561,30 @@ textarea {
     margin-bottom: 50px;
   }
 }
-.social__net-list {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  margin-top: 16px;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  padding-left: 30px;
-  padding-right: 30px;
+.team {
+  background-color: #F5F4FA;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
-.social__list-link {
-  width: 44px;
-  height: 44px;
-  border-radius: 50%;
-  fill: #AFB1B8;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+.team__title {
+  color: #212121;
+  font-size: 28px;
+  font-weight: 700;
+  letter-spacing: 1.08px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.team__card {
+  min-width: 290px;
+  max-width: 450px;
+  -webkit-box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+          box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+  border-radius: 0px 0px 4px 4px;
+  padding-bottom: 30px;
+  background-color: #FFF;
+  margin-bottom: 30px;
 }
 
 .team__name {
@@ -601,39 +605,36 @@ textarea {
   text-align: center;
 }
 
-.team__card {
-  width: 270px;
-  -webkit-box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
-          box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
-  border-radius: 0px 0px 4px 4px;
-  padding-bottom: 30px;
-  background-color: #FFF;
-}
-
-.team__card {
-  margin-right: 30px;
-}
-
-.team {
-  background-color: #F5F4FA;
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
-
-.team__list {
+.social__net-list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-right: 30px;
+  margin-top: 16px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
-.team__title {
-  color: #212121;
-  font-size: 36px;
-  font-weight: 700;
-  letter-spacing: 1.08px;
-  text-align: center;
-  margin-bottom: 50px;
+.social__net-item {
+  margin-left: 17px;
+}
+
+.social__list-link {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  fill: #AFB1B8;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .social__list-link:focus,
@@ -642,6 +643,21 @@ textarea {
   fill: #FFF;
 }
 
+@media screen and (min-width: 768px) {
+  .team__card {
+    width: 354px;
+  }
+  .team__list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+}
 .clients__list {
   display: -webkit-box;
   display: -ms-flexbox;

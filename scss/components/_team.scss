@@ -1,24 +1,31 @@
 
-.social__net-list{
-    display: flex;
-    margin-top: 16px;
-    justify-content: space-between;
-    padding-left: 30px;
-    padding-right: 30px;
+.team {
+    background-color: $background-team-color;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
-// .social__net-item{
-//     margin-left: 17px;
-// }
-.social__list-link{
-    width: 44px;
-    height: 44px;
-    border-radius: 50%;
-    fill: $svg-color;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
+.team__title {
+    color: $title-text-color;
+    font-size: 28px;
+    font-weight: 700;
+    letter-spacing: 1.08px;
+    text-align: center;
+    margin-bottom: 30px;
 }
-.team__name{
+
+.team__card {
+    min-width: 290px;
+    max-width: 450px;
+    box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.20), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+    border-radius: 0px 0px 4px 4px;
+    padding-bottom: 30px;
+    background-color: $primary-background-color;
+    margin-bottom: 30px;
+
+}
+
+.team__name {
     color: $title-text-color;
     font-size: 16px;
     font-weight: 500;
@@ -27,44 +34,109 @@
     margin-top: 30px;
     margin-bottom: 10px;
 }
-.team__position{
+
+.team__position {
     color: $primary-text-color;
     font-size: 16px;
     font-weight: 400;
     letter-spacing: 0.48px;
     text-align: center;
-    
 }
-.team__card{
-    width: 270px;
-    box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.20), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
-    border-radius: 0px 0px 4px 4px;
-    padding-bottom: 30px;
-    background-color: $primary-background-color;
-}  
-.team__card{
-    margin-right: 30px;
-}
-.team{
-    background-color: $background-team-color;
-    padding-top: 94px ;
-    padding-bottom: 94px ; 
-}
-.team__list{
+
+.social__net-list {
     display: flex;
-    margin-right: 30px;
-    
+    margin-top: 16px;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
 }
-.team__title{
-    color: $title-text-color;
-    font-size: 36px;
-    font-weight: 700;
-    letter-spacing: 1.08px;
-    text-align: center;
-    margin-bottom: 50px;
+
+.social__net-item {
+    margin-left: 17px;
 }
+
+.social__list-link {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    fill: $svg-color;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .social__list-link:focus,
-.social__list-link:hover{
+.social__list-link:hover {
     background-color: $background-button-color;
     fill: $primary-background-color;
 }
+@media screen and (min-width: 768px) {
+    .team__card{
+        width: 354px;
+    }
+    .team__list{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+}
+
+
+// .social__net-list{
+//     display: flex;
+//     margin-top: 16px;
+//     justify-content: space-between;
+//     padding-left: 30px;
+//     padding-right: 30px;
+// }
+// // .social__net-item{
+// //     margin-left: 17px;
+// // }
+// .social__list-link{
+//     width: 44px;
+//     height: 44px;
+//     border-radius: 50%;
+//     fill: $svg-color;
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+// }
+// .team__name{
+//     color: $title-text-color;
+//     font-size: 16px;
+//     font-weight: 500;
+//     letter-spacing: 0.48px;
+//     text-align: center;
+//     margin-top: 30px;
+//     margin-bottom: 10px;
+// }
+//
+// .team__card{
+//     width: 270px;
+//     box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.20), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+//     border-radius: 0px 0px 4px 4px;
+//     padding-bottom: 30px;
+//     background-color: $primary-background-color;
+// }  
+// .team__card{
+//     margin-right: 30px;
+// }
+// .team{
+//    
+//     padding-top: 94px ;
+//     padding-bottom: 94px ; 
+// }
+// .team__list{
+//     display: flex;
+//     margin-right: 30px;
+
+// }
+// .team__title{
+//     font-size: 36px; 
+//      margin-bottom: 50px;
+// }
+// .social__list-link:focus,
+// .social__list-link:hover{
+//     background-color: $background-button-color;
+//     fill: $primary-background-color;
+// }

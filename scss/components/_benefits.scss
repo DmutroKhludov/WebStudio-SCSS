@@ -3,7 +3,8 @@
     padding-bottom: 60px;
 }
 .benefits__block{
-        width: 480px;
+        min-width: 290px;
+        max-width: 450px;
         margin-bottom: 30px;
         // position: relative;
      }
@@ -36,6 +37,10 @@
                  line-height: 24px;
                  letter-spacing: 0.42px;
             }
+            .benefits__img{
+                width: 70px;
+                height: 70px;
+            }
             @media screen and (min-width: 768px){
                 .benefits__list{
                     flex-direction: row;
@@ -44,7 +49,6 @@
                 }
                 .benefits__block{
                     width: 354px;
-                
                 }
                 .benefits__block-wrap{
                     width: 354px;
@@ -53,6 +57,7 @@
             @media screen and (min-width: 1199px) {
                 .benefits__block{
                     margin-bottom: 0;
+                    width: 270px;
                 }
             }
                 

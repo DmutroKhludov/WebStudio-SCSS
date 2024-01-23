@@ -425,7 +425,8 @@ textarea {
 }
 
 .benefits__block {
-  width: 480px;
+  min-width: 290px;
+  max-width: 450px;
   margin-bottom: 30px;
 }
 
@@ -473,6 +474,11 @@ textarea {
   letter-spacing: 0.42px;
 }
 
+.benefits__img {
+  width: 70px;
+  height: 70px;
+}
+
 @media screen and (min-width: 768px) {
   .benefits__list {
     -webkit-box-orient: horizontal;
@@ -495,6 +501,7 @@ textarea {
 @media screen and (min-width: 1199px) {
   .benefits__block {
     margin-bottom: 0;
+    width: 270px;
   }
 }
 .activity {
@@ -656,6 +663,21 @@ textarea {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
+  }
+}
+@media screen and (min-width: 1199px) {
+  .team__card {
+    width: 270px;
+  }
+  .team__list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
   }
 }
 .clients__list {

@@ -80,6 +80,17 @@
         justify-content: space-between;
     }
 }
+@media screen and (min-width: 1199px) {
+    .team__card{
+        width: 270px;
+    }
+    .team__list{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: nowrap;
+    }
+    
+}
 
 
 // .social__net-list{

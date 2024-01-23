@@ -1,39 +1,78 @@
-.clients__list{
-    display: flex;
-    margin-left: -30px;
+.clients {
+    padding-top: 60px;
+    padding-bottom: 30px;
 }
-.clients__item{
-    margin-left: 30px;
-}
-.clients__link{
-    width: 170px;
-    height: 92px;
-    border: 1px solid $svg-color;
-    border-radius: 4px;
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    fill: $svg-color;
-}
-.clients__icon{
-    width: 106px;
-    height: 60px;
-   
-}
-.clients__link:hover,
-.clients__ink:focus{
-    fill: $background-button-color;
-    border-color: $background-button-color;
-}
-.clients{
-    padding-top: 94px;
-    padding-bottom: 94px;
-}
-.name__clients{
+
+.name__clients {
     text-align: center;
-    margin-bottom: 30px;
     font-weight: 700;
-    font-size: 36px;
+    font-size: 28px;
     letter-spacing: 1.08px;
     color: $title-text-color;
+    margin-bottom: 30px;
 }
+
+.clients__link {
+    min-width: 140px;
+    max-width: 210px;
+    margin-bottom: 30px;
+    flex-basis: calc((100% - 30px) / 2 );
+}
+.clients__list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+@media screen and (min-width: 768px) {
+    .name__clients {
+        font-size: 28px;
+    }
+}
+
+@media screen and (min-width: 1199px) {
+    .name__clients {
+        font-size: 30px;
+        margin-bottom: 60px;
+    }
+}
+
+// .clients__list{
+//     display: flex;
+//     margin-left: -30px;
+// }
+// .clients__item{
+//     margin-left: 30px;
+// }
+// .clients__link{
+//     width: 170px;
+//     height: 92px;
+//     border: 1px solid $svg-color;
+//     border-radius: 4px;
+//     align-items: center;
+//     justify-content: center;
+//     display: flex;
+//     fill: $svg-color;
+// }
+// .clients__icon{
+//     width: 106px;
+//     height: 60px;
+
+// }
+// .clients__link:hover,
+// .clients__link:focus{
+//     fill: $background-button-color;
+//     border-color: $background-button-color;
+// }
+// .clients{
+//     padding-top: 94px;
+//     padding-bottom: 94px;
+// }
+// .name__clients{
+//     text-align: center;
+//     margin-bottom: 30px;
+//     font-weight: 700;
+//     font-size: 36px;
+//     letter-spacing: 1.08px;
+//     color: $title-text-color;
+// }

@@ -1,4 +1,3 @@
-
 .team {
     background-color: $background-team-color;
     padding-top: 60px;
@@ -70,26 +69,30 @@
     background-color: $background-button-color;
     fill: $primary-background-color;
 }
+
 @media screen and (min-width: 768px) {
-    .team__card{
+    .team__card {
         width: 354px;
     }
-    .team__list{
+
+    .team__list {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
     }
 }
+
 @media screen and (min-width: 1199px) {
-    .team__card{
+    .team__card {
         width: 270px;
     }
-    .team__list{
+
+    .team__list {
         display: flex;
         justify-content: space-between;
         flex-wrap: nowrap;
     }
-    
+
 }
 
 

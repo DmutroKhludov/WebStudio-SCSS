@@ -1,6 +1,7 @@
 .clients {
     padding-top: 60px;
     padding-bottom: 30px;
+
 }
 
 .name__clients {
@@ -64,6 +65,19 @@
         align-items: center;
         height: 92px;
         margin: 0;
+    }
+    .clients__link{
+        min-width: 170px;
+        max-width: 170px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 92px;
+        margin-bottom: 0;
+    }
+    .clients{
+        padding-top: 94px;
+        padding-bottom: 94px;
     }
 }
 

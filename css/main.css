@@ -754,6 +754,8 @@ textarea {
   border-radius: 4px;
   border: 1px solid #AFB1B8;
   margin-bottom: 30px;
+  -ms-flex-preferred-size: calc((100% - 30px) / 2);
+      flex-basis: calc((100% - 30px) / 2);
 }
 
 .clients__item:hover .clients__icon {
@@ -767,6 +769,10 @@ textarea {
 @media screen and (min-width: 768px) {
   .name__clients {
     font-size: 28px;
+  }
+  .clients__item {
+    -ms-flex-preferred-size: calc((100% - 60px) / 3);
+        flex-basis: calc((100% - 60px) / 3);
   }
 }
 @media screen and (min-width: 1199px) {
@@ -787,6 +793,8 @@ textarea {
             align-items: center;
     height: 92px;
     margin: 0;
+    -ms-flex-preferred-size: calc((100% - 150px) / 6);
+        flex-basis: calc((100% - 150px) / 6);
   }
   .clients__link {
     min-width: 170px;
@@ -806,6 +814,13 @@ textarea {
   .clients {
     padding-top: 94px;
     padding-bottom: 94px;
+  }
+  .clients__list {
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
   }
 }
 .footer__email {

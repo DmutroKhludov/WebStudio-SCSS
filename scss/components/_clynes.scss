@@ -16,8 +16,11 @@
 .clients__link {
     min-width: 140px;
     max-width: 210px;
-    margin-bottom: 30px;
     flex-basis: calc((100% - 30px) / 2 );
+    height: 92px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .clients__list{
     display: flex;
@@ -39,7 +42,12 @@
          border: 1px solid $svg-color;
         margin-bottom: 30px;
         flex-basis: calc((100% - 30px) / 2);
+        height: 92px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
 }
+
 .clients__item:hover .clients__icon{
     fill: $background-button-color;
     

@@ -756,6 +756,14 @@ textarea {
   border: 1px solid #AFB1B8;
 }
 
+.clients__item:hover .clients__icon {
+  fill: #2196F3;
+}
+
+.clients__item:hover {
+  border-color: #2196F3;
+}
+
 @media screen and (min-width: 768px) {
   .name__clients {
     font-size: 28px;
@@ -765,6 +773,20 @@ textarea {
   .name__clients {
     font-size: 30px;
     margin-bottom: 60px;
+  }
+  .clients__item {
+    width: 170px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 92px;
+    margin: 0;
   }
 }
 .footer__email {

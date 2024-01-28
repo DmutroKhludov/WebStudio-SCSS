@@ -10,45 +10,105 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link rel="stylesheet" href="./css/main.min.css">
 <body>
-    <header class="header">
-        <div class="header__wraper container">
-            <a class="header__logo" href="./index.html">
-                <span class="blue">Web</span>Studio</a>
-                <nav class="header__site-nav">
-                    <ul class="header__list">
-                        <li class="header__item">
-                            <a class="header__site-link" href="./index.html">Студія</a> 
-                        </li>
-                        <li class="header__item">
-                            <a class="header__site-link current" href="./portfolio.html">Портфоліо</a>
-                        </li>
-                        <li class="header__item">
-                            <a class="header__site-link" href="#">Контакти</a>
-                        </a>
-                        </li>
-                    </ul>
-                </nav>
-      
-        <ul class="header__contacts-list">
-            <li class="header__contacts-item">
-                <a href="" class="header__site-number">
-                <svg width="16" height="12" class="header__icon">
-                    <use href="images/symbol-defs.svg#icon-email"></use>
-                </svg>
-                info@devstudio.com
-            </a>
-            </li>
-            <li class="header__contacts-item">
-                <a href="" class="header__site-number">
-                <svg width="10" height="16" class="header__icon">
-                    <use href="images/symbol-defs.svg#icon-phone"></use>
-                </svg>
-                +38 096 111 11 11
-                </a>
-            </li>
-        </ul>
-      </div>
-    </header>
+    <header class="header"> 
+        <div class="header__wraper container"> 
+            <a class="header__logo" href="index.html"> 
+                <span class="blue">Web</span>Studio</a> 
+            <nav class="header__site-nav"> 
+                <ul class="header__list"> 
+                    <li class="header__item"> 
+                        <a class="header__site-link current" href="./index.html">Студія</a> 
+                    </li> 
+                    <li class="header__item"> 
+                        <a class="header__site-link" href="./portfolio.html">Портфоліо</a> 
+                    </li> 
+                    <li class="header__item"> 
+                        <a class="header__site-link" href="#">Контакти</a> 
+                    </li> 
+                </ul> 
+            </nav> 
+ 
+            <ul class="header__contacts-list"> 
+                <li class="header__contacts-item"> 
+                    <a href="" class="header__site-number"> 
+                        <svg width="16" height="12" class="header__icon"> 
+                            <use href="images/symbol-defs.svg#icon-email"></use> 
+                        </svg> 
+                        info@devstudio.com 
+                    </a> 
+                </li> 
+                <li class="header__contacts-item"> 
+                    <a href="" class="header__site-number"> 
+                        <svg width="10" height="16" class="header__icon"> 
+                            <use href="images/symbol-defs.svg#icon-phone"></use> 
+                        </svg> 
+                        +38 096 111 11 11 
+                    </a> 
+                </li> 
+            </ul> 
+ 
+ 
+ 
+            <!-- MOBILE MENU --> 
+        <button class="menu-button js-open-menu" aria-expanded="false" aria-controls="mobile-menu"> 
+ 
+                <svg class="menu-button__open" width="40" height="40" xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40" fill="none"> 
+<path fill-rule="evenodd" clip-rule="evenodd" d="M8 14.6667V12H32V14.6667H8ZM8 21.3333H32V18.6667H8V21.3333ZM8 28H32V25.3333H8V28Z" fill="black"/> 
+</svg> 
+        </button> 
+        <div class="menu-container js-menu-container" id="mobile-menu"> 
+            <button class="menu-button js-close-menu" type="button"> 
+ 
+                <svg class="menu-button__close" width="40" height="40" xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40" fill="none"> 
+<path d="M29.6667 12.88L27.7867 11L20.3333 18.4533L12.88 11L11 12.88L18.4533 20.3333L11 27.7867L12.88 29.6667L20.3333 22.2133L27.7867 29.6667L29.6667 27.7867L22.2133 20.3333L29.6667 12.88Z" fill="#212121"/> 
+</svg> 
+            </button> 
+         
+            <div class="menu-box"> 
+                <div class="mobile-menu"> 
+                    <nav class="mobile-nav"> 
+                        <ul class="mobile-nav__list"> 
+                            <li class="mobile-nav__item"> 
+                                <a href="./index.html" class="mobile-nav__link mobile-nav__link--current">Студия</a> 
+                            </li> 
+                            <li class="mobile-nav__item"> 
+                                <a href="./portfolio.html" class="mobile-nav__link">Портфолио</a> 
+                            </li> 
+                            <li class="mobile-nav__item"> 
+                                <a href="#" class="mobile-nav__link">Контакты</a> 
+                            </li> 
+                        </ul> 
+                    </nav> 
+                </div> 
+         
+                <div class="mobile-socials"> 
+                    <ul class="mobile-contacts"> 
+                        <li class="mobile-contacts__item"> 
+                            <a href="tel:+380961111111" class="mobile-contacts__tel">+38 096 111 11 11</a> 
+                        </li> 
+                        <li class="mobile-contacts__item"> 
+                            <a href="mailto:info@devstudio.com" class="mobile-contacts__mail">info@devstudio.com</a> 
+                        </li> 
+                    </ul> 
+                    <ul class="mobile-socials__list"> 
+                        <li class="mobile-socials__item"> 
+                            <a class="mobile-socials__link" href="#">Instagram</a> 
+                        </li> 
+                        <li class="mobile-socials__item"> 
+                            <a class="mobile-socials__link" href="#">Twitter</a> 
+                        </li> 
+                        <li class="mobile-socials__item"> 
+                            <a class="mobile-socials__link" href="#">Facebook</a> 
+                        </li> 
+                        <li class="mobile-socials__item"> 
+                            <a class="mobile-socials__link" href="#">LinkedIn</a> 
+                        </li> 
+                    </ul> 
+                </div> 
+            </div> 
+        </div> 
+        </div> 
+    </header> 
   
     <main>
         <section class="portfolio__section">

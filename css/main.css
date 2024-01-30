@@ -71,6 +71,11 @@ body {
   border-bottom: 1px solid #ececec;
 }
 
+.header__site-nav,
+.header__contacts-list {
+  display: none;
+}
+
 @media screen and (min-width: 768px) {
   .header__list {
     color: #212121;
@@ -159,6 +164,10 @@ body {
     margin-left: 50px;
     font-weight: 500;
     color: #757575;
+  }
+  .header__site-nav,
+  .header__contacts-list {
+    display: block;
   }
 }
 @media screen and (min-width: 1200px) {

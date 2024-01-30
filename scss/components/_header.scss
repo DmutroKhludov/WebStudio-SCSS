@@ -16,12 +16,17 @@
     padding-bottom: 25px; 
     border-bottom: 1px solid #ececec; 
 } 
+.header__site-nav, 
+.header__contacts-list{ 
+  display: none; 
+}
 @media screen and (min-width: 768px){ 
 .header__list{ 
     color: $title-text-color ; 
     font-weight: 500; 
     line-height: normal; 
     letter-spacing: 0.28px 
+    
 } 
 .header__site-nav{ 
     width: 281px; 
@@ -93,6 +98,10 @@
     font-weight: 500; 
     color: $primary-text-color; 
 } 
+.header__site-nav, 
+  .header__contacts-list{ 
+  display: block; 
+}
 } 
  
 @media screen and (min-width: 1200px){ 

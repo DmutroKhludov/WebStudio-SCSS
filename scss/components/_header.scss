@@ -101,12 +101,12 @@
 .header__site-nav, 
   .header__contacts-list{ 
   display: block; 
-}
 } 
  
 @media screen and (min-width: 1200px){ 
 .header__contacts-list{ 
     flex-direction: row; 
+    display: flex;
 } 
 .header__site-link.current::after{ 
     bottom: -33px; 

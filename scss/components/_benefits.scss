@@ -58,7 +58,13 @@
     border-radius: 4px; 
     margin-bottom: 30px; 
 } 
- 
+ @media (min-device-pixel-ratio: 2),
+ (min-resolution: 192dpi),
+  (min-resolution: 2ddpx) {
+    .benefits__block{
+        background-image: url(./images/benefits/);
+    }
+ }
 @media screen and (min-width: 768px) { 
     .benefits__list { 
         flex-direction: row; 

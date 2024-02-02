@@ -77,32 +77,32 @@
  @media (min-device-pixel-ratio: 2),
  (min-resolution: 192dpi),
   (min-resolution: 2ddpx) {
-    .benefits__block{
+    .benefits__block::before{
         background-image: url(./images/benefits/anntenna-2x.webp);
     }
-    .benefits__block{
+    .benefits__block:nth-child(2){
         background-image: url(./images/benefits/astronaut-2x.webp);
     }
-    .benefits__block{
+    .benefits__block:nth-child(3){
         background-image: url(./images/benefits/clock-2x.webp);
     }
-    .benefits__block{
+    .benefits__block:nth-child(4){
         background-image: url(./images/benefits/diagram-2x.webp);
     }
  }
  @media (min-device-pixel-ratio: 2),
  (min-resolution: 192dpi),
   (min-resolution: 2ddpx) {
-    .benefits__block{
+    .benefits__block::before{
         background-image: url(./images/benefits/anntenna1.webp);
     }
-    .benefits__block{
+    .benefits__block:nth-child(2){
         background-image: url(./images/benefits/astronaut1.webp);
     }
-    .benefits__block{
+    .benefits__block:nth-child(3){
         background-image: url(./images/benefits/clock1.webp);
     }
-    .benefits__block{
+    .benefits__block:nth-child(4){
         background-image: url(./images/benefits/diagram1.webp);
     }
  }

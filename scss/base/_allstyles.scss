@@ -1,44 +1,49 @@
-::after,
-::before{
-   box-sizing:border-box ;
-}
-h1, h2, h3, h4, h5, h6, p {
-   margin-bottom: 0;
-   margin-top: 0;
-}
-ul, ol {
-   list-style: none;
-   margin: 0;
-   padding: 0;
-}
-a{
-   text-decoration: none;
-   cursor: pointer;
-   color:$title-text-color;
-}
-img{
-   display: block;
-   width: 100%;
-}
-.container{
-   width: 480px;
-   padding-left: 15px;
-   padding-right: 15px;
-   margin: 0 auto;  
-}
-   @media screen and (min-width:768px){
-      .container{
-         width: 768px;
-      }
-   }
- @media screen and (min-width:1200px){
-       .container{
-         width: 1200px;
-       }
- }
-body{
-   padding: 0 ;
-    color: $primary-text-color;
-    background-color: $primary-background-color;
-    font-family: 'Roboto', sans-serif;
+::after, 
+::before{ 
+   box-sizing:border-box ; 
+} 
+h1, h2, h3, h4, h5, h6, p { 
+   margin-bottom: 0; 
+   margin-top: 0; 
+} 
+ul, ol { 
+   list-style: none; 
+   margin: 0; 
+   padding: 0; 
+} 
+a{ 
+   text-decoration: none; 
+   cursor: pointer; 
+   color:$title-text-color; 
+} 
+img{ 
+   display: block; 
+   width: 100%; 
+} 
+.container{ 
+   width: 320px; 
+   padding-left: 15px; 
+   padding-right: 15px; 
+   margin: 0 auto;   
+} 
+@media screen and (min-width:480px){ 
+      .container{ 
+         width: 480px; 
+      } 
+   } 
+   @media screen and (min-width:768px){ 
+      .container{ 
+         width: 768px; 
+      } 
+   } 
+ @media screen and (min-width:1200px){ 
+       .container{ 
+         width: 1200px; 
+       } 
+ } 
+body{ 
+   padding: 0 ; 
+    color: $primary-text-color; 
+    background-color: $primary-background-color; 
+    font-family: 'Roboto', sans-serif; 
 }
